@@ -1,0 +1,33 @@
+{
+  "name": "blync-usb30",
+  "version": "1.0.0",
+  "description": "Blynclight module for Node.js using node-hid for BLYNCUSB30",
+  "main": "lib/blync-usb30.js",
+  "dependencies": {
+    "node-hid": "~0.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/julienstroheker/node-blync-USB30.git"
+  },
+  "keywords": [
+    "blync",
+    "blynclight",
+    "usb30",
+    "BLYNCUSB30",
+    "rgb",
+    "led",
+    "hid",
+    "usb"
+  ],
+  "author": "Julien Stroheker <julienstroheker@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/julienstroheker/node-blync-USB30/issues"
+  },
+  "homepage": "https://github.com/julienstroheker/node-blync-USB30"
+}
