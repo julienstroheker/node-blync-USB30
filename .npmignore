@@ -1,1 +1,3 @@
-/img
+img/
+.vscode
+package-lock.json

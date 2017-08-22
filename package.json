@@ -1,6 +1,6 @@
 {
   "name": "blync-usb30",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Blynclight module for Node.js using node-hid for BLYNCUSB30",
   "main": "lib/blync-usb30.js",
   "dependencies": {

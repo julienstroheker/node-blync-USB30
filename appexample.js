@@ -9,17 +9,24 @@ try {
     throw new Error("Error: " + error);
 }
 
-// Make Blync light up
+// Make Blync with specific color
 device.setColor('white', 'on');
 device.setColor('red', 'on');
 device.setColor('blue', 'on');
 device.setColor('green', 'on');
+device.setColor('yellow', 'on');
+device.setColor('cyan', 'on');
+device.setColor('magenta', 'on');
+
+// Make Blync light up with RGB code
+device.setRGB(0,125,200, 'on');
 
 // Make Blync light up with controls
 device.setColor('green', 'dim');
-device.setColor('green', 'blinkveryfast');
-device.setColor('green', 'blinkfast');
+device.setColor('green', 'blinkslow');
 device.setColor('green', 'blinknormal');
+device.setColor('green', 'blinkfast');
+
 
 // Switch off - Any color is correct
 device.setColor('green', 'off');
